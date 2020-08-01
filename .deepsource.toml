@@ -5,8 +5,7 @@ name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  ecma_version = "6"
+  ecma_version = "2020"
+  module_system = "es-modules"
   environment = ["nodejs"]
   plugins = ["react"]
-  module_system = "es-modules"
-  style_guide = "standard"
